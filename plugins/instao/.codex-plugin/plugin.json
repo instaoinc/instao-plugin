@@ -1,13 +1,13 @@
 {
   "name": "instao",
-  "version": "0.1.1",
-  "description": "Discover and qualify French public tender opportunities.",
+  "version": "0.1.2",
+  "description": "Find French public tenders to grow your business, and access consultation documents to help your assistant prepare informed bids.",
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
-    "displayName": "Instao",
-    "shortDescription": "Find French public contracts that fit your business",
-    "longDescription": "Describe your activity and operating area, discover relevant French tenders, compare matching lots and examine available source evidence.",
+    "displayName": "Instao - Marchés publics",
+    "shortDescription": "Trouvez et préparez vos offres",
+    "longDescription": "Les marchés publics peuvent aider une entreprise à développer son activité et à trouver de nouveaux contrats en France. Instao aide votre assistant à rechercher des appels d’offres adaptés à votre activité et à votre zone d’intervention, comparer les opportunités et vérifier les exigences. Vous préparez déjà une réponse ou n’avez que quelques pièces ? Retrouvez une consultation, consultez ses documents disponibles et téléchargez les originaux pour donner à votre assistant le contexte utile à la préparation de votre candidature et de votre offre.",
     "developerName": "Instao",
     "category": "Productivity",
     "capabilities": ["Read"],
