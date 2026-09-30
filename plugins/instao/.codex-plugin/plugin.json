@@ -1,0 +1,20 @@
+{
+  "name": "instao",
+  "version": "0.1.1",
+  "description": "Discover and qualify French public tender opportunities.",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Instao",
+    "shortDescription": "Find French public contracts that fit your business",
+    "longDescription": "Describe your activity and operating area, discover relevant French tenders, compare matching lots and examine available source evidence.",
+    "developerName": "Instao",
+    "category": "Productivity",
+    "capabilities": ["Read"],
+    "websiteURL": "https://instao.fr",
+    "defaultPrompt": [
+      "Trouve des marchés publics adaptés à mon activité et à ma zone d’intervention.",
+      "Compare ces appels d’offres et explique ce que nous devons vérifier avant de répondre."
+    ]
+  }
+}

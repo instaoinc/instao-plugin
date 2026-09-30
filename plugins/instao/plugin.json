@@ -1,0 +1,12 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "instao",
+  "version": "0.1.1",
+  "description": "Find and compare French public tenders that fit a company's activity and operating area, with evidence and clear qualification questions.",
+  "author": {
+    "name": "Instao",
+    "url": "https://instao.fr"
+  },
+  "homepage": "https://instao.fr",
+  "keywords": ["marchés publics", "appels d'offres", "France", "public tenders"]
+}

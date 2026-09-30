@@ -1,0 +1,20 @@
+{
+  "name": "instao-remote",
+  "interface": {
+    "displayName": "Instao hosted pilot"
+  },
+  "plugins": [
+    {
+      "name": "instao",
+      "source": {
+        "source": "local",
+        "path": "./plugins/instao"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
