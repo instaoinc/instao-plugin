@@ -4,7 +4,7 @@ The pilot helps you discover and compare French public tenders from a conversati
 
 Ask the assistant to inspect a consultation's files, cite numbered passages or retrieve an original document. Missing files and incomplete text extraction must remain explicit. Account linking is not needed for this pilot.
 
-This is an early hosted pilot with a publicly installable package. It is not a published or officially recommended OpenAI directory plugin. Response preparation, saved company profiles, favorites, UI panels and proactive notifications are outside this version.
+This is an early hosted pilot with a publicly installable package. It is not yet a published directory plugin. Saved company profiles, managed response projects, favorites, UI panels and Instao monitoring are outside this version. The assistant can use retrieved documents to help prepare a bid in its host.
 
 ## Install in Codex
 
@@ -49,6 +49,38 @@ To remove it:
 codex plugin remove 'instao@instao-remote'
 codex plugin marketplace remove instao-remote
 ```
+
+## Claude and Grok Bot
+
+The self-contained plugin folder is `plugins/instao`. It includes the discovery
+skill, a dedicated README, icons and Claude/Cursor compatibility manifests alongside
+the portable and Codex manifests. All configurations use the same anonymous hosted
+endpoint; the package contains no backend runtime or credentials.
+
+For a Claude repository-backed submission, select this folder as the plugin path.
+In Claude Code 2.1.275 or later, use `/plugin install instao --marketplace
+instaoinc/instao-plugin`. Alternatively, add the repository with `/plugin marketplace add
+instaoinc/instao-plugin` and install `instao@instao-remote`. A manually configured
+Claude connector uses `https://api.instao.fr/instao-mcp/mcp`; pairing a connector
+and a plugin should retain this same endpoint.
+
+Grok Bot accepts the public repository or MCP URL in its
+[submission form](https://x.ai/bot/marketplace/submit-a-plugin). Its Cursor-format
+marketplace index points to `plugins/instao`. The plated square logo has a
+[public URL](https://raw.githubusercontent.com/instaoinc/instao-plugin/main/plugins/instao/assets/logo-plated.svg).
+
+After cloning, a Cursor CLI exercise can load the folder with
+`cursor-agent --plugin-dir /absolute/path/to/instao-plugin/plugins/instao`.
+Grok Build CLI also supports `grok plugin marketplace add
+https://github.com/instaoinc/instao-plugin.git`, then `grok plugin install instao
+--trust`. These are proxy tests; check installation, skill loading and file
+delivery inside Claude and Grok Bot before attesting to in-app compatibility.
+
+Repository installation, portal validation, directory review and publication are
+separate. A direct MCP connection provides tools but does not import the skill.
+
+The distributed plugin files are licensed under MIT. The hosted backend and
+consultation documents are not included in that software license.
 
 ## Test in ChatGPT
 

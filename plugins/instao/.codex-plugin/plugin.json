@@ -1,6 +1,6 @@
 {
   "name": "instao",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Find French public tenders to grow your business, and access consultation documents to help your assistant prepare informed bids.",
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
@@ -21,7 +21,9 @@
       "Compare ces appels d’offres et explique ce que nous devons vérifier avant de répondre."
     ],
     "supportURL": "https://www.instao.fr/contact",
-    "privacyPolicyURL": "https://www.instao.fr/politique-de-confidentialite",
+    "privacyPolicyURL": "https://www.instao.fr/confidentialite-plugin-instao",
     "termsOfServiceURL": "https://www.instao.fr/conditions-generales"
-  }
+  },
+  "repository": "https://github.com/instaoinc/instao-plugin",
+  "license": "MIT"
 }

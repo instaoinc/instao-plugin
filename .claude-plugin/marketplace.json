@@ -1,0 +1,15 @@
+{
+  "name": "instao-remote",
+  "owner": {
+    "name": "Instao"
+  },
+  "metadata": {
+    "description": "French public-tender discovery and consultation documents with Instao."
+  },
+  "plugins": [
+    {
+      "name": "instao",
+      "source": "./plugins/instao"
+    }
+  ]
+}
