@@ -1,0 +1,22 @@
+{
+  "name": "instao",
+  "version": "0.1.5",
+  "description": "Find French public tenders to grow your business, and access consultation documents to help your assistant prepare informed bids.",
+  "author": {
+    "name": "Instao",
+    "url": "https://www.instao.fr/"
+  },
+  "homepage": "https://www.instao.fr/",
+  "repository": "https://github.com/instaoinc/instao-plugin",
+  "keywords": [
+    "marchés publics",
+    "appels d'offres",
+    "France",
+    "public tenders",
+    "réponse aux appels d’offres",
+    "dossier de consultation",
+    "développement commercial"
+  ],
+  "logo": "assets/logo-plated.svg",
+  "license": "MIT"
+}

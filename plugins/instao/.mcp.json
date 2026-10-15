@@ -1,6 +1,7 @@
 {
   "mcpServers": {
     "instao": {
+      "type": "http",
       "url": "https://api.instao.fr/instao-mcp/mcp"
     }
   }
